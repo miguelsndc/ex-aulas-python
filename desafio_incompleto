@@ -1,0 +1,104 @@
+
+
+#A padaria Só pão vende diariamente uma certa quantidade de pães franceses e uma quantidade de broas. 
+#Cada pãozinho custa R$ 0,80 e a broa custa R$ 2,50. Do total arrecadado, 43% #corresponde aos custos de fabricação. Do restante, Seu joão guarda 15% numa conta de #poupança e 15% ele converte em Euros para sua viagem Anual. Sabe-se que 1 Euro custa R$ 4,60. Com base nestes fatos, faça um programa para 
+
+ # 1 ler as quantidades de pães e de broas,
+ # 2 calcular a venda total de pãos e broas, 
+ # 3 o custo de fabricação, 
+ # 4 quanto irá guardar na poupança e quantos euros irá comprar.
+ # 5 Ao final exibir os dados calculados.
+ 
+#pao = 0.80
+#broa = 2.50
+#custo = 43% do arrecadado
+# lucro = 57% do arrecadado
+# poupança 15% do lucro
+# euros 15% do lucro
+#30%
+
+#ler as quantidades de pães e de broas:
+#def qt_paoBroa():
+#  qt_broa = int(input('Digite a quantidade de broa: '))
+#  qt_pao = int(input('Digite a quantidade de pão: '))
+#  qt_total = qt_broa, qt_pao
+
+#  return qt_total
+  
+
+#calcular a venda total de pãos e broas
+#def calculo_PaoBroa(qt_pao, qt_broa):
+#  vendas_pao  = qt_pao * 0.8
+#  vendas_broa = qt_broa * 2.5
+#  vendas_total  = vendas_broa + vendas_pao
+
+#  return vendas_total
+
+
+#o custo de fabricação
+#def custo_lucro(vendas_total):
+#  custo = vendas_total * 0.43
+#  lucro = vendas_total - custo
+  
+#  return custo, lucro
+
+
+#quanto irá guardar na poupança e quantos euros irá comprar
+#def poupança_comprarEuros(lucro):
+#  poupança = lucro * 0.15
+#  conversao_euro = (lucro * 0.15) / 4.6
+#  resto_lucro = lucro * 0.70
+  
+#  return poupança, conversao_euro, resto_lucro
+
+#quantidade_vendida = qt_paoBroa()
+
+#qt_broa, qt_pao = quantidade_vendida
+
+#vendas_total = calculo_PaoBroa(qt_pao, qt_broa)
+
+#custo, lucro = custo_lucro(vendas_total)
+
+#poupança, conversao_euro, resto_lucro = poupança_comprarEuros(lucro)
+
+#printt(quantidade_vendida)
+#print(vendas_total)
+#print(custo, lucro)
+#print(poupança, conversao_euro, resto_lucro)
+
+
+
+
+#Faça um programa que use a função valorPagamento para determinar o valor a ser pago por uma prestação de #uma conta. O programa deverá solicitar ao usuário o valor da prestação e o número de dias em atraso e #passar estes valores para a função valorPagamento, que calculará o valor a ser pago e devolverá este #valor ao programa que a chamou. O programa deverá então exibir o valor a ser pago na tela. Após a execução o programa deverá voltar a pedir outro valor de prestação e assim continuar até que seja informado um valor igual a zero para a prestação. Neste momento o programa deverá ser encerrado, exibindo o relatório do dia, que conterá a quantidade e o valor total de prestações pagas no dia. O cálculo do valor a ser pago é feito da seguinte forma. Para pagamentos sem atraso, cobrar o valor da prestação. Quando houver atraso, cobrar 3% de multa, mais 0,1% de juros por dia de atraso.
+
+# relatorio_dia = {
+#     cliente1 = [valor_da_prestacao_inicial, dias_de_atraso, valor_final]
+# }
+
+#def valorPagamento():
+ # valor_prestacao_inicial = int(input('Digite aqui o valor da sua prestação inicial: '))
+ # dias_de_atraso = int(input('Digite aqui o número correspondente aos seus dias de atraso: ')
+ # valor_juros = dias_de_atraso * 0.001 
+ # valor_multa = valor_prestacao_inicial * 0.03
+ # valor_atraso = (valor_multa + valor_juros) * valor_prestacao_inicial
+  
+ # if dias_de_atraso == int(0):
+ #   print(valor_prestacao_inicial)
+ # else:
+ #   print(valor_prestacao_inicial)
+  
+  #return 
+
+
+
+
+#Faça um programa que filtre as vogais de uma palavra, por exemplo, ao receber a palavra "banana", retorne "x, a, x, a, x, a". substitua as consoantes e os espaços em branco pela letra X
+
+
+ans = [x if x in ['A', 'E', 'I', 'O', 'U'] else ]
+
+
+
+
+
+
